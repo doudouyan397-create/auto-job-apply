@@ -1,0 +1,20 @@
+{
+  "name": "auto-job-tools",
+  "interface": {
+    "displayName": "Auto Job Tools"
+  },
+  "plugins": [
+    {
+      "name": "auto-job-apply",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
