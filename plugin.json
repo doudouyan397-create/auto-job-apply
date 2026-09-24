@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "auto-job-apply",
+  "version": "1.0.0",
+  "description": "Find suitable jobs and fill recruitment forms from a user-owned local profile while pausing for login, verification, assessments, declarations, and final submission.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "自动投简历助手",
+        "shortDescription": "自动找岗位并填写网申表",
+        "longDescription": "从用户自己的简历生成本地资料，查找匹配岗位并填写招聘网站或企业校招页面；登录、验证码、测评和最终提交由用户完成或确认。",
+        "developerName": "Auto Job Apply Contributors",
+        "category": "Productivity",
+        "capabilities": ["Interactive", "Write"],
+        "defaultPrompt": [
+          "读取我的简历并初始化求职资料",
+          "帮我找适合的岗位并自动填写网申",
+          "继续填写当前招聘页面"
+        ],
+        "brandColor": "#2563EB"
+      }
+    }
+  }
+}

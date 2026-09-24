@@ -1,0 +1,28 @@
+{
+  "initialized": false,
+  "profile_version": "1.0",
+  "name": "",
+  "gender": "",
+  "birth_date": "",
+  "phone": "",
+  "email": "",
+  "current_city": "",
+  "education": [],
+  "projects": [],
+  "skills": [],
+  "certificates": [],
+  "awards": [],
+  "job_preferences": [],
+  "preferred_locations": [],
+  "resume_files": [],
+  "never_guess": [
+    "身份证号码",
+    "证件有效期",
+    "期望薪资",
+    "到岗日期",
+    "证件照",
+    "家庭成员信息",
+    "紧急联系人",
+    "银行卡信息"
+  ]
+}
